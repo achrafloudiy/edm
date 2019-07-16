@@ -31,6 +31,10 @@ table {
   border-spacing: 0;
 }
 
+#play-pause-button{
+  font-size: 50px;
+  cursor: pointer;
+}
 .section-padding {
   padding: 60px 0px;
 }
@@ -132,7 +136,18 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 100px;
   padding-bottom: 5%;
 }
-
+.merch-title {
+  z-index: 5;
+  font-size: 3vw;
+  font-weight: 700;
+  color: #fff;
+  line-height: 38px;
+  letter-spacing: 4px;
+  opacity: 1;
+  text-transform: uppercase;
+  padding-bottom: 5%;
+  text-shadow: 2px 3px 4px #000000;
+}
 .sub-title {
   font-size: 6vw;
   font-weight: 700;
@@ -142,6 +157,42 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
   text-transform: uppercase;
   padding-bottom: 5%; 
+}
+
+.merchimg
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.btnwrapp
+{
+  display: flex;
+    justify-content: center;
+}
+.btnmerch {
+  justify-content: center;
+  box-shadow: 2px 3px 4px #000000;
+  background: #FFD34E;
+  border: 0px;
+  display: inline-block;
+  font-size: 12px;
+  font-family: 'EB Garamond', serif !important;
+  font-weight: bolder !important;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-weight: normal;
+  border-radius: 0px;
+  letter-spacing: 1px;
+  color: #333;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .btn-submit {
@@ -166,6 +217,10 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+
+.btnmerch:hover {
+  background: #fff;
 }
 
 .btn-submit:hover {
@@ -199,6 +254,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'EB Garamond', serif !important;
 }
 #feature h2, #feature h3{
+  text-align: center;
   color: #FFD34E;
   text-shadow: 2px 3px 4px #000000;
   text-transform: uppercase;
@@ -261,7 +317,7 @@ p {
 }
 
 h3.txt-tl {
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.35;
 }
 
