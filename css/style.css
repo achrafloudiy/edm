@@ -32,9 +32,18 @@ table {
 }
 
 #play-pause-button{
-  font-size: 50px;
+  font-size: 20px;
   cursor: pointer;
+  padding: 10px;
+  float:right;
+  text-shadow: 2px 3px 4px #000000;
 }
+
+#play-pause-button:hover{
+  text-decoration: none;
+  color:white;
+}
+
 .section-padding {
   padding: 60px 0px;
 }

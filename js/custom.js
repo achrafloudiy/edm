@@ -39,7 +39,8 @@
 
 })(jQuery);
 
-var audio = new Audio("http://www.stephaniequinn.com/Music/Allegro%20from%20Duet%20in%20C%20Major.mp3");
+//bouton audio
+var audio = new Audio("audio/Introduction.m4a");
 
 $('#play-pause-button').on("click",function(){
   if($(this).hasClass('fa-play'))
@@ -60,3 +61,6 @@ audio.onended = function() {
      $("#play-pause-button").removeClass('fa-pause');
      $("#play-pause-button").addClass('fa-play');
 };
+$('#play-pause-button').removeClass('fa-play');
+$('#play-pause-button').addClass('fa-pause');
+audio.play();
