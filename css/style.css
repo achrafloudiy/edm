@@ -186,6 +186,37 @@ p#top-title-page{
   padding-bottom: 5%;
   text-shadow: 2px 3px 4px #000000;
 }
+
+.contact-title
+{
+    z-index: 5;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #fff;
+    line-height: 38px;
+    letter-spacing: 4px;
+    opacity: 1;
+    text-transform: uppercase;
+    padding-bottom: 5%;
+    padding-left:15px;
+    text-shadow: 2px 3px 4px #000000;
+}
+
+.tour-title
+{
+    z-index: 5;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #fff;
+    line-height: 38px;
+    letter-spacing: 4px;
+    opacity: 1;
+    text-transform: uppercase;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left:15px;
+    text-shadow: 2px 3px 4px #000000;
+}
 .sub-title {
   font-size: 6vw;
   font-weight: 700;
@@ -265,6 +296,11 @@ p#top-title-page{
   background: #fff;
 }
 
+.btn-send:hover
+{
+  background: #fff;
+}
+
 /****/
 
 #cta-1 {
@@ -299,7 +335,7 @@ p#top-title-page{
   background-color: #000000;
   color: #FFD34E;  
   font-family: 'EB Garamond', serif !important;
-  padding-top: 15%;
+  padding-top: 200px;
 }
 #feature h2, #feature h3{
   text-align: center;
@@ -416,6 +452,37 @@ h3.txt-tl {
 }
 
 /****/
+.mySlides {display:none}
+.w3-content
+{
+  margin-bottom: 5%;
+  box-shadow: 2px 3px 4px #000000;
+}
+.w3-left, .w3-right, .w3-badge 
+{
+  cursor:pointer;
+  font-size: 30px;
+}
+
+.w3-badge {height:13px;width:13px;padding:0}
+.w3-center.w3-display-bottommiddle
+{
+  padding:3%;
+  color: white;
+}
+.mySlides
+{
+  width: 100%;
+  height: auto;
+}
+#gallerysection
+{
+  background: url(../img/bg.jpg) no-repeat;
+  background-color: #000000;
+  color: #FFD34E;  
+  font-family: 'EB Garamond', serif !important;
+  padding-top: 200px;
+}
 
 .portfolio-box {
   margin-bottom: 15px;
@@ -425,8 +492,19 @@ h3.txt-tl {
   padding-right: 0px;
 }
 
-#contact {
-  background-color: #f8f8f8;
+#contactsection {
+  background: url(../img/bg.jpg) no-repeat;
+  background-color: #000000;
+  color: #FFD34E;  
+  font-family: 'EB Garamond', serif !important;
+  padding-top: 200px;
+}
+#musicsection {
+  background: url(../img/bg.jpg) no-repeat;
+  background-color: #000000;
+  color: #FFD34E;  
+  font-family: 'EB Garamond', serif !important;
+  padding-top: 200px;
 }
 
 .validation {
@@ -467,9 +545,28 @@ h3.txt-tl {
 }
 
 .btn-send {
+  justify-content: center;
+  box-shadow: 2px 3px 4px #000000;
+  background: #FFD34E;
+  border: 0px;
+  display: inline-block;
+  font-size: 12px;
+  font-family: 'EB Garamond', serif !important;
+  font-weight: bolder !important;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-weight: normal;
   border-radius: 0px;
-  color: #000;
-  background-color: #FFD34E;
+  letter-spacing: 1px;
+  color: #333;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 
 }
 
@@ -477,6 +574,11 @@ a, a:hover {
   color: #FFD34E;
 }
 
+a#designer:hover
+{
+  color:#fff;
+  text-decoration: none;
+}
 .cont-title {
   font-size: 24px;
   padding: 15px 0px;
@@ -521,7 +623,7 @@ a, a:hover {
 
 #footer {
   border-top: 1px solid #666;
-  background: url(../img/bg.jpg) no-repeat;
+  background-color:#000;
   padding: 20px 0px;
   font-family: TrajanPro-Bold, Libre Baskerville !important;
 }

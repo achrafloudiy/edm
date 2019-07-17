@@ -13,7 +13,8 @@
   <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond:600&display=swap" rel="stylesheet">
- </head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
 
 <body>
   <!--header-->
@@ -35,7 +36,7 @@
             <div class="collapse navbar-collapse navbar-right" id="mynavbar">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Store</a></li>
+                <li><a href="https://www.ifmerch.com/">Store</a></li>
                 <li><a href="tour.html">Tour</a></li>
                 <li><a href="music.html">Music</a></li>
                 <li class="active"><a href="gallery.html">Gallery</a></li>
@@ -51,48 +52,23 @@
   </header>
   <!--/ header-->
   <!---->
-  <section class="section-padding wow fadeInUp delay-02s" id="portfolio">
+  <section class="section-padding delay-02s" id="gallerysection">
       <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-12">
-            <div class="section-title">
-              <h2 class="head-title">Portfolio</h2>
-              <hr class="botm-line">
-              <p class="sec-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
-            </div>
-          </div>
-          <div class="col-md-9 col-sm-12">
-            <div class="col-md-4 col-sm-6 padding-right-zero">
-              <div class="portfolio-box design">
-                <img src="img/port01.jpg" alt="" class="img-responsive">
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 padding-right-zero">
-              <div class="portfolio-box design">
-                <img src="img/port02.jpg" alt="" class="img-responsive">
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 padding-right-zero">
-              <div class="portfolio-box design">
-                <img src="img/port03.jpg" alt="" class="img-responsive">
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 padding-right-zero">
-              <div class="portfolio-box design">
-                <img src="img/port04.jpg" alt="" class="img-responsive">
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 padding-right-zero">
-              <div class="portfolio-box design">
-                <img src="img/port05.jpg" alt="" class="img-responsive">
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 padding-right-zero">
-              <div class="portfolio-box design">
-                <img src="img/port06.jpg" alt="" class="img-responsive">
+          <div class="row">
+          <div class="w3-content w3-display-container wow fadeInLeft delay-05s">
+              <img class="mySlides" src="img/MU_v001.jpg">
+              <img class="mySlides" src="img/MU_v002.jpg">
+              <img class="mySlides" src="img/MU_v003.jpg">
+              <img class="mySlides" src="img/MU_v004.jpg">
+              <img class="mySlides" src="img/MU_v005.jpg">
+              <img class="mySlides" src="img/MU_v006.jpg">
+              <div class="w3-center w3-display-bottommiddle" style="width:100%">
+                <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+                <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
               </div>
             </div>
           </div>
+        <div class="row">    
         </div>
       </div>
     </section>
@@ -153,6 +129,34 @@
   <script src="js/wow.js"></script>
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
+  <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function currentDiv(n) {
+        showDivs(slideIndex = n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" w3-white", "");
+        }
+        x[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " w3-white";
+      }
+      </script>
 
 </body>
 </html>
