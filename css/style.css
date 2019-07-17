@@ -127,6 +127,22 @@ h1, h2, h3, h4, h5, h6 {
   padding: 25px 0;
 }
 
+.videowrap
+{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 2px 3px 4px #000000;
+}
 .wrapper {
   padding: 130px 0px 130px;
   font-family: 'EB Garamond', serif;
@@ -144,6 +160,19 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   padding-top: 100px;
   padding-bottom: 5%;
+}
+
+p#top-title-page{
+  font-size: 3vw !important;
+  z-index: 5;
+  font-size: 3vw;
+  font-weight: 700;
+  color: #fff;
+  line-height: 38px;
+  letter-spacing: 4px;
+  opacity: 1;
+  text-transform: uppercase;
+  padding:5%;
 }
 .merch-title {
   z-index: 5;
@@ -258,9 +287,19 @@ h1, h2, h3, h4, h5, h6 {
 /****/
 
 #feature {
-  background-color: #3a3737ec;
+  border-top: 1px solid #666;
+  background: url(../img/bg.jpg) no-repeat;
   color: #FFD34E;  
   font-family: 'EB Garamond', serif !important;
+}
+
+#toursection
+{
+  background: url(../img/bg.jpg) no-repeat;
+  background-color: #000000;
+  color: #FFD34E;  
+  font-family: 'EB Garamond', serif !important;
+  padding-top: 15%;
 }
 #feature h2, #feature h3{
   text-align: center;
@@ -301,7 +340,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #subscribe
 {
-  padding-top: 180px!important;
+  border-top: 1px solid #666;
 }
 p {
   color: #888;
@@ -339,7 +378,7 @@ h3.txt-tl {
 }
 
 .bg-image-2 {
-  background: url('../img/background-band.jpg') no-repeat top center fixed;
+  background: url('../img/background-band.jpg') no-repeat 0% 30%;
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
@@ -481,7 +520,8 @@ a, a:hover {
 /****/
 
 #footer {
-  background-color: #3a3737ec;
+  border-top: 1px solid #666;
+  background: url(../img/bg.jpg) no-repeat;
   padding: 20px 0px;
   font-family: TrajanPro-Bold, Libre Baskerville !important;
 }

@@ -61,6 +61,6 @@ audio.onended = function() {
      $("#play-pause-button").removeClass('fa-pause');
      $("#play-pause-button").addClass('fa-play');
 };
-$('#play-pause-button').removeClass('fa-play');
-$('#play-pause-button').addClass('fa-pause');
-audio.play();
+//$('#play-pause-button').removeClass('fa-play');
+//$('#play-pause-button').addClass('fa-pause');
+//audio.play();
