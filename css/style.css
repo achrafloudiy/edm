@@ -429,6 +429,7 @@ h3.txt-tl {
   position: relative;
   padding: 88px 0 67px 0;
   display: block;
+  width:100%;
 }
 
 .cta-txt h3 {
