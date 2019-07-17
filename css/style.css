@@ -324,7 +324,7 @@ p#top-title-page{
 
 #feature {
   border-top: 1px solid #666;
-  background: url(../img/bg.jpg) no-repeat;
+  background: url(../img/bg.jpg) no-repeat fixed;
   color: #FFD34E;  
   font-family: 'EB Garamond', serif !important;
 }
