@@ -428,6 +428,10 @@ font-family: 'EB Garamond', serif !important;
   margin-bottom: 10px;
 }
 
+#musicsection .row
+{
+  padding-bottom: 20px;
+}
 .tracklistwrap h2
 {
   text-transform: uppercase;
