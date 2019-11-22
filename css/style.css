@@ -472,7 +472,7 @@ background-size: cover;
 p {
   color: #888;
 }
-
+/*
 .icon {
   position: relative;
   height: 48px;
@@ -481,14 +481,14 @@ p {
   margin-top: 14px;
   margin-bottom: 20px;
 }
-
+*/
 .icon i {
   font-size: 35px;
 }
 
 .icon-text {
-  margin-left: 73px;
-  padding: 0px 25px 25px 0px;
+  margin-left: 0px;
+  padding: 25px 25px 25px 25px;
 }
 
 h3.txt-tl {
