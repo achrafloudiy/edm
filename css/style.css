@@ -360,6 +360,7 @@ p#top-title-page{
 {
   border-top: 1px solid #666;
 background: url(../img/blackwal.jpg) no-repeat fixed;
+background-size: cover;
 color: #FFD34E;  
 font-family: 'EB Garamond', serif !important;
 }
@@ -374,12 +375,14 @@ font-family: 'EB Garamond', serif !important;
 padding-top: 150px;
 border-top: 1px solid #666;
 background: url(../img/blackwal.jpg) no-repeat fixed;
+background-size: cover;
 color: #FFD34E;  
 font-family: 'EB Garamond', serif !important;
 }
 #toursection
 {
   background: url(../img/blackwal.jpg) no-repeat fixed;
+background-size: cover;
   background-color: #000000;
   color: #FFD34E;  
   font-family: 'EB Garamond', serif !important;
@@ -568,6 +571,7 @@ h3.txt-tl {
 {
   border-top: 1px solid #666;
   background: url('../img/blackwal.jpg') no-repeat 0% 30%;
+background-size: cover;
   color: #FFD34E;  
   font-family: 'EB Garamond', serif !important;
   padding-top: 50px;
@@ -591,6 +595,7 @@ h3.txt-tl {
 
 #contactsection {
   background: url(../img/blackwal.jpg) no-repeat fixed;
+  background-size: cover;
   background-color: #000000;
   color: #FFD34E;  
   font-family: 'EB Garamond', serif !important;
@@ -598,6 +603,7 @@ h3.txt-tl {
 }
 #musicsection {
   background: url(../img/blackwal.jpg) no-repeat fixed;
+  background-size: cover;
   background-color: #000000;
   color: #FFD34E;  
   font-family: 'EB Garamond', serif !important;
