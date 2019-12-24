@@ -241,7 +241,6 @@ p#top-title-page{
   font-size: 6vw;
   font-weight: 700;
   color: #fff;
-  line-height: 71px;
   letter-spacing: 4px;
   opacity: 1;
   text-transform: uppercase;
@@ -303,8 +302,8 @@ p#top-title-page{
   background: #FFD34E;
   border: 0px;
   display: inline-block;
-  padding:1vw;
-  font-size: 1.6vw;
+  padding: 1vw 2vw 1vw 2vw;
+  font-size: 17px;
   font-family: 'EB Garamond', serif !important;
   font-weight: bolder !important;
   text-transform: uppercase;
