@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #cta-0{
   background: url(../img/background-cover.jpg);  
-  padding-top: 20%;  /* 450px/800px = 0.5625 */
+  padding-top: 7%;  /* 450px/800px = 0.5625 */
   background-size: cover;
   -moz-background-size: cover;  /* Firefox 3.6 */
   background-position: center;  /* Internet Explorer 7/8 */
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-fixed-top {
-  padding: 40px 0;
+  padding: 5% 0;
   transition: all 0.5s;
 }
 
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 2px 3px 4px #000000;
 }
 .wrapper {
-  padding: 130px 0px 130px;
+  padding: 5% 0% 5%;
   font-family: 'EB Garamond', serif;
   text-shadow: 2px 3px 4px #000000;
 }
@@ -158,12 +158,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3vw;
   font-weight: 700;
   color: #fff;
-  line-height: 38px;
   letter-spacing: 4px;
   opacity: 1;
   text-transform: uppercase;
   padding-top: 100px;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
 }
 
 p#top-title-page{
@@ -247,6 +246,7 @@ p#top-title-page{
   opacity: 1;
   text-transform: uppercase;
   padding-bottom: 5%; 
+  margin-bottom: 0;
 }
 
 .merchimg
@@ -303,12 +303,11 @@ p#top-title-page{
   background: #FFD34E;
   border: 0px;
   display: inline-block;
-  font-size: 17px;
+  padding:1vw;
+  font-size: 1.6vw;
   font-family: 'EB Garamond', serif !important;
   font-weight: bolder !important;
   text-transform: uppercase;
-  padding: 20px 40px;
-  margin-top: 20px;
   font-weight: normal;
   border-radius: 0px;
   letter-spacing: 1px;
@@ -320,6 +319,7 @@ p#top-title-page{
   -o-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  margin-bottom: 2%;
 }
 
 .btnmerch:hover {
@@ -468,6 +468,10 @@ background-size: cover;
 {
   border-top: 1px solid #666;
 }
+#subscribeButton
+{
+  text-align:left !important;
+}
 p {
   color: #888;
 }
@@ -523,7 +527,7 @@ h3.txt-tl {
 }
 
 .cta-txt h3 {
-  font-size: 32px;
+  font-size: 2vw;
   margin-bottom: 10px;
   font-weight: 700;
   color: #fff;
@@ -786,7 +790,7 @@ button.navbar-toggle.collapsed{
   
  
   .top-title {
-    font-size: 15px;
+    font-size: 4vw;
   }
   .title {
     font-size: 50px;
@@ -804,7 +808,7 @@ button.navbar-toggle.collapsed{
     margin-bottom: 15px;
   }
   .cta-txt h3 {
-    font-size: 28px;
+    font-size: 4vw;
     font-family: TrajanPro-Bold, Libre Baskerville !important;
   }
   body {
