@@ -59,12 +59,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #cta-0{
- 
-  background: url(../img/background-cover.jpg) no-repeat;
-  background-size:cover;
-  background-position: top center;
-  max-width:100%;
-  height: auto;
+  background: url(../img/background-cover.jpg);  
+  padding-top: 20%;  /* 450px/800px = 0.5625 */
+  background-size: cover;
+  -moz-background-size: cover;  /* Firefox 3.6 */
+  background-position: center;  /* Internet Explorer 7/8 */
 }
 
 .bg-color {
@@ -227,7 +226,7 @@ p#top-title-page{
 .gallery-title
 {
     z-index: 5;
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: 700;
     color: #fff;
     line-height: 38px;
