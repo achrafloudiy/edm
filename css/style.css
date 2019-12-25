@@ -758,10 +758,7 @@ a#designer:hover
   padding: 5px;
 }
 
-.fa:hover
-{
-  color:#FFD34E;
-}
+
 /****/
 
 @media (min-width: 451px) and (max-width: 900px) {
@@ -775,7 +772,7 @@ button.navbar-toggle.collapsed{
 }
 
 @media (min-width: 20px) and (max-width: 450px) {
-  .navbar-toggle:hover, .navbar-toggle {
+  .navbar-toggle:hover, .navbar-toggle:focus, .navbar-toggle,.navbar-toggle:visited {
     background-color: #fff;
     color: #000;
   }
