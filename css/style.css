@@ -179,10 +179,9 @@ p#top-title-page{
 }
 .merch-title {
   z-index: 5;
-  font-size: 3vw;
+  font-size: 5vw;
   font-weight: 700;
   color: #fff;
-  line-height: 38px;
   letter-spacing: 4px;
   opacity: 1;
   text-transform: uppercase;
@@ -193,10 +192,9 @@ p#top-title-page{
 .contact-title
 {
     z-index: 5;
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: 700;
     color: #fff;
-    line-height: 38px;
     letter-spacing: 4px;
     opacity: 1;
     text-transform: uppercase;
@@ -208,10 +206,9 @@ p#top-title-page{
 .tour-title
 {
     z-index: 5;
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: 700;
     color: #fff;
-    line-height: 38px;
     letter-spacing: 4px;
     opacity: 1;
     text-transform: uppercase;
@@ -225,10 +222,9 @@ p#top-title-page{
 .gallery-title
 {
     z-index: 5;
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight: 700;
     color: #fff;
-    line-height: 38px;
     letter-spacing: 4px;
     opacity: 1;
     text-transform: uppercase;
@@ -303,7 +299,7 @@ p#top-title-page{
   border: 0px;
   display: inline-block;
   padding: 1vw 2vw 1vw 2vw;
-  font-size: 17px;
+  font-size: 1em;
   font-family: 'EB Garamond', serif !important;
   font-weight: bolder !important;
   text-transform: uppercase;
