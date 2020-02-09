@@ -429,6 +429,14 @@ background-size: cover;
 {
   padding-bottom: 20px;
 }
+#spotifyPlayer
+{
+  margin-left:20%;
+}
+#ReleaseTable td
+{
+  vertical-align: top;
+}
 .tracklistwrap h2
 {
   text-transform: uppercase;
@@ -673,6 +681,10 @@ background-size: cover;
 
 a, a:hover {
   color: #FFD34E;
+}
+
+.pull-right a:hover {
+  color: #FFD34E !important;
 }
 
 a#designer:hover
