@@ -413,6 +413,7 @@ background-size: cover;
 .albumcover
 {
   box-shadow: 2px 3px 4px #000000;
+  margin-top:10%;
 }
 
 .tracklist
@@ -431,7 +432,8 @@ background-size: cover;
 }
 #spotifyPlayer
 {
-  margin-left:20%;
+  margin-top:10%;
+  box-shadow: 2px 3px 4px #000000;
 }
 #ReleaseTable td
 {
