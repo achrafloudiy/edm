@@ -1,8 +1,5 @@
 /*
-    Theme Name: Bethany
-    Theme URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
+    CUSTOM CSS BEGINS
 */
 
 
@@ -511,16 +508,7 @@ background-size: cover;
 p {
   color: #888;
 }
-/*
-.icon {
-  position: relative;
-  height: 48px;
-  width: 48px;
-  float: left;
-  margin-top: 14px;
-  margin-bottom: 20px;
-}
-*/
+
 .icon i {
   font-size: 35px;
 }
@@ -875,4 +863,4 @@ button.navbar-toggle.collapsed{
   }
 }
 
-/****/
+/**CUSTOM CSS ENDS**/
