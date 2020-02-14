@@ -170,11 +170,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #FFD34E;
   border: 0px;
   display: inline-block;
-  font-size: 2vw;
+  font-size: 1.2rem;
   font-family: 'EB Garamond', serif !important;
   font-weight: bolder !important;
   text-transform: uppercase;
-  padding: 20px 30px;
+  padding: 15px 30px;
   margin-top: 20px;
   font-weight: normal;
   border-radius: 0px;
@@ -323,7 +323,7 @@ p#top-title-page{
   border: 0px;
   display: inline-block;
   padding: 1vw 2vw 1vw 2vw;
-  font-size: 2vw;
+  font-size: 1.2rem;
   font-family: 'EB Garamond', serif !important;
   font-weight: bolder !important;
   text-transform: uppercase;
