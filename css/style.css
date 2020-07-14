@@ -548,7 +548,7 @@ h3.txt-tl {
 }
 
 .bg-image-2 {
-  background: url('../img/background-band.jpg') no-repeat 0% 30%;
+  background: url('../img/Arianne.png') no-repeat 0% 35%;
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
@@ -561,7 +561,7 @@ h3.txt-tl {
 
 .section {
   position: relative;
-  padding: 15% 0 67px 0;
+  padding: 15% 0 30% 0;
   display: block;
   max-width:100%;
 }
